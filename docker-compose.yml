@@ -1,0 +1,16 @@
+services:
+  xpeel:
+    build: .
+    restart: always
+    privileged: true
+    network_mode: host
+    group_add:
+      - dialout
+    volumes:
+      - type: bind
+        source: /dev/
+        target: /dev/
+      - type: bind
+        source: ./config.json
+        target: /app/config.json
+        read_only: true

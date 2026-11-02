@@ -1,0 +1,3 @@
+from .automated_plate_seal_remover_controller import AutomatedPlateSealRemoverController
+
+__all__ = ["AutomatedPlateSealRemoverController"]
