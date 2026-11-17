@@ -365,3 +365,7 @@ The code is split into two layers:
 
 * `src/unitelabs/xpeel/io/` talks to the instrument: the RS-232 command set (`protocol.py`, `commands.py`), the instrument's error codes, the status tracking, and the simulated instrument (`simulation.py`).
 * `src/unitelabs/xpeel/features/` defines the SiLA features and delegates to `io/`.
+
+## License
+
+MIT License. Copyright (c) 2025-2026 RIKEN. See [LICENSE](LICENSE).
