@@ -1,5 +1,10 @@
 # xpeel-sila2-connector
 
+> ⚠️ **Disclaimer**: This software is under active development. It comes with
+> **no warranty** and the authors accept **no liability** for any results or
+> damages. Use at your own risk, and verify safety before connecting to real
+> hardware.
+
 A SiLA 2 connector, built on the [UniteLabs CDK](https://gitlab.com/unitelabs/cdk/python-cdk), for the Xpeel automated plate seal remover (now sold as the Automated Plate Seal Remover by Azenta Life Sciences, model XP-A_100V).
 
 It is a port of [plan5-labs/xpeel-sila2](https://github.com/plan5-labs/xpeel-sila2) to the UniteLabs CDK. The SiLA interface is unchanged: the feature `org.riken/instruments/AutomatedPlateSealRemoverController/v1` keeps every command, parameter, response, error and property identifier, so existing clients keep working. The test suite checks this against the original feature definition.
